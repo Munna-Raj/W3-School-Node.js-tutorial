@@ -1,14 +1,18 @@
-// Variables (let, const, var)
-let name = 'Node.js';
-const version = 20;
+// Variables and Functions
 
-// Function declaration
+let name = 'node.js'
+const version =20;
+
 function greet(user) {
-  return `Hello, ${user}!`; // Template literal (ES6)
+    return 'Hello, ${user}!';
+
 }
 
-// Arrow function (ES6+)
 const add = (a, b) => a + b;
 
-console.log(greet('Developer')); // Hello, Developer!
-console.log(add(5, 3)); // 8
+console.log(greet('Developer'));
+
+console.log(add(5 ,3));
+
+
+
